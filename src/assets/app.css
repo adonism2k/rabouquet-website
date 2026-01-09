@@ -1,0 +1,107 @@
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Global Styles */
+@layer base {
+  body {
+    @apply font-sans text-gray-900;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+/* Custom Animations */
+@layer utilities {
+  @keyframes blob {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+    }
+    25% {
+      transform: translate(20px, -20px) scale(1.1);
+    }
+    50% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+    75% {
+      transform: translate(20px, 20px) scale(1.05);
+    }
+  }
+
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes sparkle {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+  }
+
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out forwards;
+  }
+
+  .animate-sparkle {
+    animation: sparkle 2s ease-in-out infinite;
+  }
+
+  /* Pink gradient utilities */
+  .bg-gradient-pink {
+    @apply bg-gradient-to-br from-pink-400 via-pink-500 to-rose-500;
+  }
+
+  .text-gradient-pink {
+    @apply bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-pink-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-pink-400 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-pink-500;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-pink-200 text-pink-900;
+}
+
+::-moz-selection {
+  @apply bg-pink-200 text-pink-900;
+}

@@ -1,0 +1,20 @@
+# robots.txt for Rabouquet.in
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rabouquet.in/sitemap.xml
+
+# Disallow admin or private directories if any
+# Disallow: /admin/
+# Disallow: /_app/
+
+# Allow search engines to crawl all public content
+Allow: /
+Allow: /products
+Allow: /about
+Allow: /contact
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1
