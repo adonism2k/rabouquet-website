@@ -1,40 +1,49 @@
 // Business Configuration
 export const config = {
   business: {
-    name: 'Rabouquet',
+    name: 'RABOUQUET.IN',
     tagline: 'Buket Hadiah Cantik untuk Momen Istimewa',
-    description: 'Buket hadiah custom untuk berbagai acara spesial Anda',
-    phone: '+62-XXX-XXXX-XXXX', // Update with actual phone number
-    email: 'info@rabouquet.com', // Update with actual email
-    whatsapp: '62XXXXXXXXXX', // Update with actual WhatsApp number (format: 62xxx without + or -)
-    address: 'Jakarta, Indonesia', // Update with actual address
+    description: 'Toko buket bunga dan hadiah di Bogor - Buket hadiah custom untuk berbagai acara spesial Anda',
+    phone: '+6285157572725',
+    formatted_phone: '+62 851-5757-2725',
+    email: 'info@rabouquet.in',
+    whatsapp: '6285157572725', // Format: 62xxx without + or -
+    address: {
+      street: 'Kampung Pajeleran Gunung',
+      city: 'Bogor',
+      province: 'Jawa Barat',
+      country: 'Indonesia',
+      postalCode: '16913',
+      full: 'Kampung Pajeleran Gunung, Bogor, Indonesia 16913'
+    },
     socialMedia: {
-      instagram: 'https://instagram.com/rabouquet',
-      facebook: 'https://facebook.com/rabouquet',
-      tiktok: 'https://tiktok.com/@rabouquet'
+      instagram: 'https://instagram.com/rabouquet.in',
+      handle: '@rabouquet.in'
+    },
+    location: {
+      lat: -6.5971,
+      lng: 106.8060
     }
   },
 
   // Business hours
   hours: {
-    weekdays: '09:00 - 18:00',
-    weekends: '10:00 - 16:00'
+    weekdays: '08:00 - 20:00',
+    weekends: '08:00 - 20:00',
+    display: 'Senin - Minggu: 08:00 - 20:00 WIB'
   },
 
   // Delivery information
   delivery: {
-    areas: ['Jakarta', 'Depok', 'Bekasi', 'Tangerang', 'Bogor'],
-    fee: 'Gratis untuk area Jakarta Selatan',
-    note: 'Ongkir disesuaikan untuk area lainnya'
+    areas: ['Bogor', 'Bogor Timur', 'Bogor Barat', 'Bogor Utara', 'Bogor Selatan', 'Cibinong', 'Sentul'],
+    fee: 'Disesuaikan dengan lokasi pengiriman',
+    note: 'Pengiriman cepat dan aman untuk area Bogor dan sekitarnya'
   },
 
   // Payment methods
   payment: {
-    methods: ['Transfer Bank', 'E-Wallet (GoPay, OVO, Dana)', 'Cash on Delivery'],
-    bankAccounts: [
-      { bank: 'BCA', number: 'XXX-XXX-XXXX', name: 'Rabouquet' },
-      { bank: 'Mandiri', number: 'XXX-XXX-XXXX', name: 'Rabouquet' }
-    ]
+    methods: ['Transfer Bank (BCA, Mandiri, BRI)', 'E-Wallet (GoPay, OVO, Dana, ShopeePay)'],
+    note: 'Detail pembayaran akan diberikan setelah konfirmasi pesanan via WhatsApp'
   }
 }
 
