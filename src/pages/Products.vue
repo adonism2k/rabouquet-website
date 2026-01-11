@@ -33,7 +33,8 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import Section from '@/components/Section.vue'
@@ -42,12 +43,22 @@ import ProductCard from '@/components/ProductCard.vue'
 import WhatsAppButton from '@/components/WhatsAppButton.vue'
 import { products, categories, getProductsByCategory } from '@/lib/products.js'
 
+const route = useRoute()
+const router = useRouter()
 const activeCategory = ref('all')
 
 const allCategories = [
   { id: 'all', name: 'Semua', icon: '🌟' },
   ...categories
 ]
+
+// Set active category from URL parameter on mount
+onMounted(() => {
+  const categoryParam = route.query.category
+  if (categoryParam && categories.some(cat => cat.id === categoryParam)) {
+    activeCategory.value = categoryParam
+  }
+})
 
 const filteredProducts = computed(() => {
   if (activeCategory.value === 'all') {
@@ -58,5 +69,11 @@ const filteredProducts = computed(() => {
 
 const handleFilter = (categoryId) => {
   activeCategory.value = categoryId
+  // Update URL parameter when filter changes
+  if (categoryId === 'all') {
+    router.push({ query: {} })
+  } else {
+    router.push({ query: { category: categoryId } })
+  }
 }
 </script>

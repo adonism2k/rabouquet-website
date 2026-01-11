@@ -22,7 +22,7 @@ export const siteConfig = {
 export const pageMetadata = {
   home: {
     title: 'Rabouquet.in - Toko Buket Bunga & Hadiah di Bogor',
-    description: 'Toko buket terpercaya di Bogor. Kami menyediakan buket bunga segar, buket snack, buket boneka, dan hadiah custom untuk berbagai acara spesial Anda. Pesan sekarang!',
+    description: 'Toko buket terpercaya di Bogor. Kami menyediakan buket bunga segar, buket snack, buket boneka, dan hadiah custom untuk berbagai acara spesialmu. Pesan sekarang!',
     keywords: 'buket bunga bogor, toko buket bogor, buket wisuda, buket snack, buket boneka, hadiah custom bogor, florist bogor',
     ogImage: '/logo.png'
   },
@@ -34,13 +34,13 @@ export const pageMetadata = {
   },
   about: {
     title: 'Tentang Rabouquet.in - Toko Buket Terpercaya di Bogor',
-    description: 'Rabouquet.in adalah toko buket terpercaya di Bogor yang menghadirkan buket berkualitas untuk setiap momen spesial Anda. Dibuat dengan penuh perhatian dan cinta.',
+    description: 'Rabouquet.in adalah toko buket terpercaya di Bogor yang menghadirkan buket berkualitas untuk setiap momen spesialmu. Dibuat dengan penuh perhatian dan cinta.',
     keywords: 'tentang rabouquet, toko buket bogor, florist profesional bogor',
     ogImage: '/logo.png'
   },
   contact: {
     title: 'Hubungi Kami - Rabouquet.in',
-    description: 'Hubungi Rabouquet.in untuk konsultasi dan pemesanan buket. Kami siap melayani Anda melalui WhatsApp atau kunjungi toko kami di Bogor. Respon cepat dan ramah!',
+    description: 'Hubungi Rabouquet.in untuk konsultasi dan pemesanan buket. Kami siap melayani kamu melalui WhatsApp atau kunjungi toko kami di Bogor. Respon cepat dan ramah!',
     keywords: 'kontak rabouquet, pesan buket bogor, whatsapp florist bogor',
     ogImage: '/logo.png'
   }
@@ -139,7 +139,7 @@ export function getWhatsAppLink(message = '') {
  * Default WhatsApp messages for different contexts
  */
 export const whatsappMessages = {
-  general: 'Halo Rabouquet.in! Saya ingin bertanya tentang produk buket Anda.',
+  general: 'Halo Rabouquet.in! Saya ingin bertanya tentang produk buketnya dong.',
   order: 'Halo! Saya ingin memesan buket. Mohon informasinya.',
   custom: 'Halo! Saya ingin membuat custom buket. Bisa dibantu?',
   inquiry: 'Halo! Saya ingin bertanya tentang ketersediaan produk dan harga.'

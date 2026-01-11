@@ -65,7 +65,7 @@ export const products = [
     id: 'artificial-colorful-mix',
     name: 'Buket Artificial Warna-Warni',
     category: 'bunga-artificial',
-    description: 'Kombinasi bunga artificial dengan warna cerah yang membawa keceriaan ke ruangan Anda.',
+    description: 'Kombinasi bunga artificial dengan warna cerah yang bikin ruangan jadi lebih ceria.',
     priceRange: 'Rp 50.000 - Rp 150.000',
     image: '/images/products/artificial-colorful-mix.jpg',
     featured: false
@@ -272,7 +272,7 @@ export const categories = [
     id: 'bunga-asli',
     name: 'Buket Bunga Asli',
     slug: 'bunga-asli',
-    description: 'Bunga segar pilihan untuk momen istimewa Anda',
+    description: 'Bunga segar pilihan untuk momen istimewamu',
     icon: '🌹'
   },
   {
