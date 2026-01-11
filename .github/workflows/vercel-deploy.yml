@@ -1,0 +1,52 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run build test
+        run: npm run build
+        continue-on-error: false
+
+      - name: Trigger Vercel Deployment
+        if: success() && github.ref == 'refs/heads/main'
+        run: |
+          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_bnralmxfUVcZqqaPOzG05NIvysO3/Z2V9dq4pW9"
+          echo "✅ Vercel deployment triggered successfully"
+
+      - name: Deployment Summary
+        if: success() && github.ref == 'refs/heads/main'
+        run: |
+          echo "### 🚀 Deployment Status" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status:** Deployment triggered on Vercel" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time:** $(date)" >> $GITHUB_STEP_SUMMARY
+
+      - name: PR Comment (Preview)
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "ℹ️ Pull request detected. Skipping production deployment."
+          echo "Vercel will automatically create a preview deployment for this PR."
