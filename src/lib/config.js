@@ -3,7 +3,7 @@ export const config = {
   business: {
     name: 'Rabouquet',
     tagline: 'Buket Hadiah Cantik untuk Momen Istimewa',
-    description: 'Buket hadiah custom untuk berbagai acara spesial Anda',
+    description: 'Buket hadiah custom untuk berbagai acara spesialmu',
     phone: '+62-XXX-XXXX-XXXX', // Update with actual phone number
     email: 'info@rabouquet.com', // Update with actual email
     whatsapp: '62XXXXXXXXXX', // Update with actual WhatsApp number (format: 62xxx without + or -)

@@ -10,18 +10,18 @@ export const whatsappConfig = {
   phoneNumber: '6281234567890', // Replace with actual Rabouquet WhatsApp number
 
   messages: {
-    general: 'Halo Rabouquet! Saya tertarik dengan produk Anda. Bisa info lebih lanjut?',
+    general: 'Halo Rabouquet! Saya tertarik dengan produknya nih. Bisa info lebih lanjut?',
 
     // Product-specific message templates
     product: (productName) =>
-      `Halo Rabouquet! Saya tertarik dengan ${productName}. Bisa info lebih lanjut mengenai ketersediaan dan harga?`,
+      `Halo Rabouquet! Saya tertarik dengan ${productName}. Bisa info lebih lanjut mengenai ketersediaan dan harganya?`,
 
     category: (categoryName) =>
-      `Halo Rabouquet! Saya ingin melihat koleksi ${categoryName}. Bisa dibantu?`,
+      `Halo Rabouquet! Mau lihat koleksi ${categoryName} dong. Bisa dibantu?`,
 
-    customOrder: 'Halo Rabouquet! Saya ingin pesan custom buket. Bisa diskusi detail pesanan saya?',
+    customOrder: 'Halo Rabouquet! Mau pesan custom buket nih. Bisa diskusi detail pesanannya?',
 
-    backdrop: 'Halo Rabouquet! Saya tertarik menyewa backdrop untuk acara pernikahan. Bisa info lebih lanjut?'
+    backdrop: 'Halo Rabouquet! Tertarik mau sewa backdrop untuk acara pernikahan. Bisa info lebih lanjut?'
   }
 };
 
@@ -94,7 +94,7 @@ export const heroContent = {
     {
       icon: '🎨',
       title: 'Custom Design',
-      description: 'Sesuaikan dengan keinginan Anda'
+      description: 'Sesuaikan dengan keinginanmu'
     },
     {
       icon: '🚚',
@@ -115,9 +115,9 @@ export const aboutContent = {
     paragraphs: [
       'Rabouquet dimulai dari kecintaan kami terhadap seni merangkai bunga dan menciptakan hadiah yang berkesan. Berawal dari hobi kecil, kini kami tumbuh menjadi salah satu penyedia buket dan hadiah kreatif terpercaya di Pekanbaru.',
 
-      'Kami percaya bahwa setiap momen spesial layak dirayakan dengan cara istimewa. Itulah mengapa kami menyediakan berbagai pilihan buket - dari bunga segar, artificial, snack, hingga boneka - serta backdrop nikahan untuk membuat acara Anda semakin berkesan.',
+      'Kami percaya bahwa setiap momen spesial layak dirayakan dengan cara istimewa. Itulah mengapa kami menyediakan berbagai pilihan buket - dari bunga segar, artificial, snack, hingga boneka - serta backdrop nikahan untuk membuat acaramu semakin berkesan.',
 
-      'Dengan dedikasi tim yang berpengalaman, kami berkomitmen menghadirkan produk berkualitas tinggi dan pelayanan terbaik untuk setiap pelanggan. Kepuasan Anda adalah kebahagiaan kami.'
+      'Dengan dedikasi tim yang berpengalaman, kami berkomitmen menghadirkan produk berkualitas tinggi dan pelayanan terbaik untuk setiap pelanggan. Kepuasanmu adalah kebahagiaan kami.'
     ]
   },
 
@@ -165,12 +165,12 @@ export const aboutContent = {
     heading: 'Mengapa Memilih Rabouquet?',
     reasons: [
       '✅ Pengalaman bertahun-tahun dalam industri buket dan hadiah',
-      '✅ Tim profesional dan kreatif yang siap membantu Anda',
+      '✅ Tim profesional dan kreatif yang siap membantumu',
       '✅ Harga kompetitif dengan kualitas premium',
       '✅ Fast response dan konsultasi gratis via WhatsApp',
-      '✅ Custom design sesuai keinginan Anda',
+      '✅ Custom design sesuai keinginanmu',
       '✅ Packing rapi dan pengiriman aman',
-      '✅ Melayani area Pekanbaru dan sekitarnya',
+      '✅ Melayani area Bogor dan sekitarnya',
       '✅ Testimoni positif dari ratusan pelanggan puas'
     ]
   }
@@ -181,7 +181,7 @@ export const aboutContent = {
  */
 export const contactContent = {
   title: 'Hubungi Kami',
-  subtitle: 'Kami siap membantu Anda menciptakan buket istimewa',
+  subtitle: 'Kami siap membantumu menciptakan buket istimewa',
 
   info: {
     heading: 'Informasi Kontak',
@@ -242,19 +242,19 @@ export const contactContent = {
     items: [
       {
         question: 'Berapa lama waktu pemesanan?',
-        answer: 'Untuk pesanan regular, kami butuh minimal 1-2 hari. Untuk pesanan mendesak (same day), silakan hubungi kami via WhatsApp untuk konfirmasi ketersediaan.'
+        answer: 'Untuk pesanan regular, butuh minimal 1-2 hari ya. Kalau mau same day, chat aja dulu via WhatsApp biar kita cek ketersediaannya!'
       },
       {
         question: 'Apakah bisa custom design?',
-        answer: 'Tentu! Kami menerima custom design sesuai keinginan Anda. Kirimkan referensi atau ide Anda via WhatsApp, dan kami akan bantu wujudkan.'
+        answer: 'Tentu saja bisa! Kirim aja referensi atau ide kamu via WhatsApp, nanti kita bantu wujudkan bareng.'
       },
       {
         question: 'Bagaimana cara pembayaran?',
-        answer: 'Kami menerima transfer bank (BCA, Mandiri, BRI) dan e-wallet (GoPay, OVO, Dana, ShopeePay). Detail pembayaran akan diberikan setelah konfirmasi pesanan.'
+        answer: 'Kita terima transfer bank (BCA, Mandiri, BRI) dan e-wallet (GoPay, OVO, Dana). Detail pembayaran akan diberikan setelah konfirmasi pesanan ya.'
       },
       {
         question: 'Area mana saja yang dilayani untuk pengiriman?',
-        answer: 'Kami melayani pengiriman untuk area Pekanbaru dan sekitarnya. Biaya pengiriman disesuaikan dengan jarak lokasi.'
+        answer: 'Kami melayani pengiriman untuk area Bogor dan sekitarnya. Biaya pengiriman disesuaikan dengan jarak lokasi.'
       },
       {
         question: 'Berapa lama bunga segar bisa bertahan?',
@@ -295,7 +295,7 @@ export const categoryDescriptions = {
 
   'buket-uang': {
     short: 'Buket uang untuk kado wisuda dan special moment',
-    long: 'Money bouquet yang cantik dan kreatif. Cara unik memberikan uang sebagai hadiah untuk wisuda, ulang tahun, atau pernikahan. Kami akan rangkai uang Anda menjadi buket yang indah dan berkesan. Custom sesuai tema acara dan nominal yang diinginkan.'
+    long: 'Money bouquet yang cantik dan kreatif. Cara unik memberikan uang sebagai hadiah untuk wisuda, ulang tahun, atau pernikahan. Kita akan rangkai uangmu jadi buket yang indah dan berkesan. Custom sesuai tema acara dan nominal yang diinginkan.'
   },
 
   'buket-boneka': {
@@ -305,7 +305,7 @@ export const categoryDescriptions = {
 
   'backdrop-nikahan': {
     short: 'Backdrop cantik untuk dekorasi pernikahan',
-    long: 'Layanan sewa backdrop untuk acara pernikahan Anda. Berbagai tema dan desain - elegant, modern, rustic, luxury. Lengkap dengan setup dan instalasi. Membuat foto-foto pernikahan Anda semakin indah dan memorable. Konsultasi gratis untuk menyesuaikan dengan tema wedding Anda.'
+    long: 'Layanan sewa backdrop untuk acara pernikahanmu. Berbagai tema dan desain - elegant, modern, rustic, luxury. Lengkap dengan setup dan instalasi. Bikin foto-foto pernikahanmu semakin indah dan memorable. Konsultasi gratis untuk menyesuaikan dengan tema weddingmu.'
   }
 };
 
@@ -366,7 +366,7 @@ export const uiLabels = {
  * Footer Content
  */
 export const footerContent = {
-  brandDescription: 'Rabouquet menyediakan buket bunga, hadiah kreatif, dan backdrop nikahan untuk momen spesial Anda. Melayani dengan sepenuh hati.',
+  brandDescription: 'Rabouquet menyediakan buket bunga, hadiah kreatif, dan backdrop nikahan untuk momen spesialmu. Melayani dengan sepenuh hati.',
 
   quickLinks: [
     { label: 'Beranda', path: '/' },

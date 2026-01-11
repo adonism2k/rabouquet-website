@@ -25,6 +25,13 @@
           >
             {{ ctaText }}
           </Button>
+          <Button
+            href="/products"
+            variant="primary"
+            size="lg"
+          >
+            Lihat Semua Produk →
+          </Button>
         </div>
       </div>
     </div>

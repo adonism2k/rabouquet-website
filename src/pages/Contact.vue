@@ -5,7 +5,7 @@
     <Section background="gradient" padding="xl">
       <div class="text-center mb-12">
         <h1 class="text-5xl font-serif font-bold text-gray-900 mb-4">Hubungi Kami</h1>
-        <p class="text-gray-600 text-lg">Siap membantu mewujudkan buket impian Anda</p>
+        <p class="text-gray-600 text-lg">Yuk, wujudkan buket impianmu bersama kami!</p>
       </div>
     </Section>
 
@@ -69,12 +69,12 @@
             <div class="space-y-6">
               <div class="bg-pink-50 p-6 rounded-lg">
                 <h3 class="text-lg font-bold mb-2">💐 Apakah bisa custom desain buket?</h3>
-                <p class="text-gray-600">Ya! Kami menerima custom desain sesuai keinginan Anda. Hubungi kami via WhatsApp untuk diskusi detail.</p>
+                <p class="text-gray-600">Tentu saja bisa! Ceritain aja maunya gimana, nanti kita diskusiin bareng via WhatsApp.</p>
               </div>
 
               <div class="bg-pink-50 p-6 rounded-lg">
                 <h3 class="text-lg font-bold mb-2">🚚 Berapa lama waktu pembuatan?</h3>
-                <p class="text-gray-600">Untuk buket ready stock biasanya 1-2 hari. Untuk custom design membutuhkan waktu 2-3 hari kerja.</p>
+                <p class="text-gray-600">Kalau ready stock, biasanya 1-2 hari aja. Untuk desain custom, butuh sekitar 2-3 hari kerja biar hasilnya maksimal.</p>
               </div>
 
               <div class="bg-pink-50 p-6 rounded-lg">
@@ -93,7 +93,7 @@
         <div class="mt-16 bg-gradient-to-r from-pink-50 to-purple-50 p-8 rounded-2xl text-center">
           <h2 class="text-3xl font-serif font-bold text-gray-900 mb-4">Siap Memesan?</h2>
           <p class="text-gray-600 text-lg mb-6">
-            Hubungi kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik untuk buket impian Anda!
+            Chat kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik untuk buket impianmu!
           </p>
           <Button
             :href="whatsappConfig.link"

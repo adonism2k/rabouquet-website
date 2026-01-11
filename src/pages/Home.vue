@@ -10,28 +10,19 @@
     />
 
     <Section background="white" padding="xl">
-      <div class="text-center mb-12">
-        <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Produk Unggulan</h2>
-        <p class="text-gray-600 text-lg">Pilihan terbaik untuk momen spesial Anda</p>
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Katalog Produk Kami</h2>
+        <p class="text-gray-600 text-lg">8 kategori buket untuk berbagai momen spesialmu</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <ProductCard
-          v-for="product in featuredProducts"
-          :key="product.id"
-          :product="product"
-        />
-      </div>
-
-      <div class="text-center mt-12">
-        <Button
-          href="/products"
-          variant="primary"
-          size="lg"
-        >
-          Lihat Semua Produk →
-        </Button>
-      </div>
+      <!-- Category Sections -->
+      <CategorySection
+        v-for="category in categories"
+        :key="category.id"
+        :category="category"
+        :products="products"
+        :limit="4"
+      />
     </Section>
 
     <Section background="pink" padding="xl">
@@ -48,7 +39,7 @@
         <div class="text-center">
           <div class="text-5xl mb-4">🎨</div>
           <h3 class="text-xl font-bold mb-2">Desain Custom</h3>
-          <p class="text-gray-600">Sesuaikan dengan keinginan Anda</p>
+          <p class="text-gray-600">Sesuaikan dengan keinginanmu</p>
         </div>
         <div class="text-center">
           <div class="text-5xl mb-4">⚡</div>
@@ -69,15 +60,11 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import Hero from '@/components/Hero.vue'
 import Section from '@/components/Section.vue'
-import Button from '@/components/Button.vue'
-import ProductCard from '@/components/ProductCard.vue'
 import WhatsAppButton from '@/components/WhatsAppButton.vue'
-import { products } from '@/lib/products.js'
-
-const featuredProducts = computed(() => products.filter(p => p.featured).slice(0, 4))
+import CategorySection from '@/components/CategorySection.vue'
+import { products, categories } from '@/lib/products.js'
 </script>

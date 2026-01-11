@@ -24,7 +24,7 @@ const props = defineProps({
   },
   message: {
     type: String,
-    default: 'Halo Rabouquet! Saya tertarik dengan produk Anda. Bisa info lebih lanjut?'
+    default: 'Halo Rabouquet! Saya tertarik dengan produknya nih. Bisa info lebih lanjut?'
   },
   phone: {
     type: String,

@@ -14,9 +14,9 @@
         <div class="prose prose-lg mx-auto">
           <h2 class="text-3xl font-serif font-bold text-gray-900 mb-6">Cerita Kami</h2>
           <p class="text-gray-600 mb-6">
-            Rabouquet adalah usaha buket yang berlokasi di Bogor, didirikan dengan misi untuk menghadirkan
-            momen istimewa melalui rangkaian buket yang indah dan berkualitas. Kami menyediakan berbagai
-            pilihan buket untuk berbagai keperluan dan momen spesial Anda.
+            Rabouquet adalah toko buket di Bogor yang hadir untuk bikin momen spesialmu jadi lebih berkesan.
+            Dari bunga segar, snack, boneka, sampai backdrop nikahan - semua kami sediakan dengan kualitas terbaik
+            dan sentuhan personal yang bikin hadiah kamu jadi istimewa.
           </p>
 
           <h2 class="text-3xl font-serif font-bold text-gray-900 mb-6 mt-12">Produk Kami</h2>
@@ -35,7 +35,7 @@
             </div>
             <div class="bg-pink-50 p-6 rounded-lg">
               <h3 class="text-xl font-bold mb-3">💐 Backdrop Nikahan</h3>
-              <p class="text-gray-600">Dekorasi backdrop cantik untuk momen pernikahan Anda</p>
+              <p class="text-gray-600">Dekorasi backdrop cantik untuk momen pernikahanmu yang istimewa</p>
             </div>
           </div>
 
@@ -47,7 +47,7 @@
             </li>
             <li class="flex items-start">
               <span class="text-2xl mr-3">🎨</span>
-              <span><strong>Desain Custom:</strong> Sesuaikan buket dengan keinginan dan tema acara Anda</span>
+              <span><strong>Desain Custom:</strong> Sesuaikan buket dengan keinginan dan tema acaramu</span>
             </li>
             <li class="flex items-start">
               <span class="text-2xl mr-3">⚡</span>

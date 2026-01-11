@@ -5,7 +5,7 @@
         <!-- About -->
         <div>
           <h3 class="text-xl font-serif font-bold mb-4 text-gradient-pink">RABOUQUET.IN</h3>
-          <p class="text-gray-400 mb-4">Toko buket bunga dan hadiah terpercaya di Bogor. Melayani berbagai kebutuhan hadiah untuk momen spesial Anda.</p>
+          <p class="text-gray-400 mb-4">Toko buket bunga dan hadiah terpercaya di Bogor. Melayani berbagai kebutuhan hadiah untuk momen spesialmu.</p>
         </div>
 
         <!-- Quick Links -->
