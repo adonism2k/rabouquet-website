@@ -7,21 +7,21 @@
  * WhatsApp Configuration
  */
 export const whatsappConfig = {
-  phoneNumber: '6281234567890', // Replace with actual Rabouquet WhatsApp number
+  phoneNumber: '6285157572725', // Rabouquet WhatsApp number
 
   messages: {
-    general: 'Halo Rabouquet! Saya tertarik dengan produknya nih. Bisa info lebih lanjut?',
+    general: 'Halo Rabouquet.in! Saya tertarik dengan produk Anda. Bisa info lebih lanjut?',
 
     // Product-specific message templates
     product: (productName) =>
-      `Halo Rabouquet! Saya tertarik dengan ${productName}. Bisa info lebih lanjut mengenai ketersediaan dan harganya?`,
+      `Halo Rabouquet.in! Saya tertarik dengan ${productName}. Bisa info lebih lanjut mengenai ketersediaan dan harga?`,
 
     category: (categoryName) =>
-      `Halo Rabouquet! Mau lihat koleksi ${categoryName} dong. Bisa dibantu?`,
+      `Halo Rabouquet.in! Saya ingin melihat koleksi ${categoryName}. Bisa dibantu?`,
 
-    customOrder: 'Halo Rabouquet! Mau pesan custom buket nih. Bisa diskusi detail pesanannya?',
+    customOrder: 'Halo Rabouquet.in! Saya ingin pesan custom buket. Bisa diskusi detail pesanan saya?',
 
-    backdrop: 'Halo Rabouquet! Tertarik mau sewa backdrop untuk acara pernikahan. Bisa info lebih lanjut?'
+    backdrop: 'Halo Rabouquet.in! Saya tertarik menyewa backdrop untuk acara pernikahan. Bisa info lebih lanjut?'
   }
 };
 
@@ -38,33 +38,33 @@ export const getWhatsAppUrl = (message = whatsappConfig.messages.general) => {
  */
 export const seoContent = {
   default: {
-    title: 'Rabouquet - Buket Bunga & Hadiah Kreatif Pekanbaru',
-    description: 'Rabouquet menyediakan buket bunga asli, artificial, snack, boneka, dan backdrop nikahan di Pekanbaru. Hadiah spesial untuk orang tersayang. Pesan sekarang via WhatsApp!',
-    keywords: 'buket bunga pekanbaru, buket snack, buket uang, buket boneka, backdrop nikahan, toko bunga pekanbaru, hadiah unik pekanbaru'
+    title: 'Rabouquet.in - Buket Bunga & Hadiah Kreatif Bogor',
+    description: 'Rabouquet.in menyediakan buket bunga asli, artificial, snack, boneka, dan backdrop nikahan di Bogor. Hadiah spesial untuk orang tersayang. Pesan sekarang via WhatsApp!',
+    keywords: 'buket bunga bogor, buket snack, buket uang, buket boneka, backdrop nikahan, toko bunga bogor, hadiah unik bogor'
   },
 
   home: {
-    title: 'Rabouquet - Toko Buket Bunga & Hadiah Kreatif Terpercaya di Pekanbaru',
-    description: 'Pesan buket bunga segar, artificial, snack, boneka, dan sewa backdrop nikahan di Pekanbaru. Pengiriman cepat, harga terjangkau, kualitas terjamin. Order via WhatsApp!',
-    keywords: 'toko bunga pekanbaru, buket murah, hadiah wisuda, hadiah ulang tahun, buket pernikahan'
+    title: 'Rabouquet.in - Toko Buket Bunga & Hadiah Kreatif Terpercaya di Bogor',
+    description: 'Pesan buket bunga segar, artificial, snack, boneka, dan sewa backdrop nikahan di Bogor. Pengiriman cepat, harga terjangkau, kualitas terjamin. Order via WhatsApp!',
+    keywords: 'toko bunga bogor, buket murah, hadiah wisuda, hadiah ulang tahun, buket pernikahan, florist bogor'
   },
 
   products: {
-    title: 'Katalog Produk - Buket Bunga & Hadiah Unik | Rabouquet',
+    title: 'Katalog Produk - Buket Bunga & Hadiah Unik | Rabouquet.in',
     description: 'Lihat koleksi lengkap buket bunga asli, artificial, pita satin, kawat bulu, snack, uang, boneka, dan backdrop nikahan. Harga mulai Rp 45.000. Custom design tersedia!',
-    keywords: 'katalog buket, harga buket bunga, buket custom, buket murah pekanbaru'
+    keywords: 'katalog buket, harga buket bunga, buket custom, buket murah bogor'
   },
 
   about: {
-    title: 'Tentang Kami - Rabouquet Pekanbaru',
-    description: 'Rabouquet adalah toko buket dan hadiah kreatif terpercaya di Pekanbaru. Melayani dengan sepenuh hati sejak 2020. Quality, creativity, dan customer satisfaction adalah prioritas kami.',
-    keywords: 'tentang rabouquet, toko bunga pekanbaru, florist pekanbaru'
+    title: 'Tentang Kami - Rabouquet.in Bogor',
+    description: 'Rabouquet.in adalah toko buket dan hadiah kreatif terpercaya di Bogor. Melayani dengan sepenuh hati. Quality, creativity, dan customer satisfaction adalah prioritas kami.',
+    keywords: 'tentang rabouquet, toko bunga bogor, florist bogor'
   },
 
   contact: {
-    title: 'Hubungi Kami - Order via WhatsApp | Rabouquet',
-    description: 'Hubungi Rabouquet untuk konsultasi dan pemesanan buket. Fast response via WhatsApp. Lokasi di Pekanbaru, melayani pengiriman se-Pekanbaru dan sekitarnya.',
-    keywords: 'kontak rabouquet, whatsapp buket, pesan buket pekanbaru'
+    title: 'Hubungi Kami - Order via WhatsApp | Rabouquet.in',
+    description: 'Hubungi Rabouquet.in untuk konsultasi dan pemesanan buket. Fast response via WhatsApp. Lokasi di Bogor, melayani pengiriman se-Bogor dan sekitarnya.',
+    keywords: 'kontak rabouquet, whatsapp buket, pesan buket bogor'
   }
 };
 
@@ -94,7 +94,7 @@ export const heroContent = {
     {
       icon: '🎨',
       title: 'Custom Design',
-      description: 'Sesuaikan dengan keinginanmu'
+      description: 'Sesuaikan dengan keinginan Anda'
     },
     {
       icon: '🚚',
@@ -113,11 +113,11 @@ export const aboutContent = {
   story: {
     heading: 'Cerita Kami',
     paragraphs: [
-      'Rabouquet dimulai dari kecintaan kami terhadap seni merangkai bunga dan menciptakan hadiah yang berkesan. Berawal dari hobi kecil, kini kami tumbuh menjadi salah satu penyedia buket dan hadiah kreatif terpercaya di Pekanbaru.',
+      'Rabouquet.in dimulai dari kecintaan kami terhadap seni merangkai bunga dan menciptakan hadiah yang berkesan. Berawal dari hobi kecil, kini kami tumbuh menjadi salah satu penyedia buket dan hadiah kreatif terpercaya di Bogor.',
 
-      'Kami percaya bahwa setiap momen spesial layak dirayakan dengan cara istimewa. Itulah mengapa kami menyediakan berbagai pilihan buket - dari bunga segar, artificial, snack, hingga boneka - serta backdrop nikahan untuk membuat acaramu semakin berkesan.',
+      'Kami percaya bahwa setiap momen spesial layak dirayakan dengan cara istimewa. Itulah mengapa kami menyediakan berbagai pilihan buket - dari bunga segar, artificial, snack, hingga boneka - serta backdrop nikahan untuk membuat acara Anda semakin berkesan.',
 
-      'Dengan dedikasi tim yang berpengalaman, kami berkomitmen menghadirkan produk berkualitas tinggi dan pelayanan terbaik untuk setiap pelanggan. Kepuasanmu adalah kebahagiaan kami.'
+      'Dengan dedikasi tim yang berpengalaman, kami berkomitmen menghadirkan produk berkualitas tinggi dan pelayanan terbaik untuk setiap pelanggan. Kepuasan Anda adalah kebahagiaan kami.'
     ]
   },
 
@@ -165,10 +165,10 @@ export const aboutContent = {
     heading: 'Mengapa Memilih Rabouquet?',
     reasons: [
       '✅ Pengalaman bertahun-tahun dalam industri buket dan hadiah',
-      '✅ Tim profesional dan kreatif yang siap membantumu',
+      '✅ Tim profesional dan kreatif yang siap membantu Anda',
       '✅ Harga kompetitif dengan kualitas premium',
       '✅ Fast response dan konsultasi gratis via WhatsApp',
-      '✅ Custom design sesuai keinginanmu',
+      '✅ Custom design sesuai keinginan Anda',
       '✅ Packing rapi dan pengiriman aman',
       '✅ Melayani area Bogor dan sekitarnya',
       '✅ Testimoni positif dari ratusan pelanggan puas'
@@ -181,7 +181,7 @@ export const aboutContent = {
  */
 export const contactContent = {
   title: 'Hubungi Kami',
-  subtitle: 'Kami siap membantumu menciptakan buket istimewa',
+  subtitle: 'Kami siap membantu Anda menciptakan buket istimewa',
 
   info: {
     heading: 'Informasi Kontak',
@@ -189,25 +189,25 @@ export const contactContent = {
       {
         icon: '📱',
         label: 'WhatsApp',
-        value: '+62 812-3456-7890',
+        value: '+62 851-5757-2725',
         link: getWhatsAppUrl()
       },
       {
         icon: '📧',
         label: 'Email',
-        value: 'hello@rabouquet.com',
-        link: 'mailto:hello@rabouquet.com'
+        value: 'info@rabouquet.in',
+        link: 'mailto:info@rabouquet.in'
       },
       {
         icon: '📍',
         label: 'Lokasi',
-        value: 'Pekanbaru, Riau, Indonesia',
+        value: 'Kampung Pajeleran Gunung, Bogor, Indonesia 16913',
         link: null
       },
       {
         icon: '🕒',
         label: 'Jam Operasional',
-        value: 'Senin - Minggu: 08:00 - 21:00 WIB',
+        value: 'Senin - Minggu: 08:00 - 20:00 WIB',
         link: null
       }
     ]
@@ -219,20 +219,8 @@ export const contactContent = {
       {
         name: 'Instagram',
         icon: '📷',
-        handle: '@rabouquet',
-        url: 'https://instagram.com/rabouquet'
-      },
-      {
-        name: 'Facebook',
-        icon: '👍',
-        handle: 'Rabouquet',
-        url: 'https://facebook.com/rabouquet'
-      },
-      {
-        name: 'TikTok',
-        icon: '🎵',
-        handle: '@rabouquet',
-        url: 'https://tiktok.com/@rabouquet'
+        handle: '@rabouquet.in',
+        url: 'https://instagram.com/rabouquet.in'
       }
     ]
   },
@@ -242,19 +230,19 @@ export const contactContent = {
     items: [
       {
         question: 'Berapa lama waktu pemesanan?',
-        answer: 'Untuk pesanan regular, butuh minimal 1-2 hari ya. Kalau mau same day, chat aja dulu via WhatsApp biar kita cek ketersediaannya!'
+        answer: 'Untuk pesanan regular, kami butuh minimal 1-2 hari. Untuk pesanan mendesak (same day), silakan hubungi kami via WhatsApp untuk konfirmasi ketersediaan.'
       },
       {
         question: 'Apakah bisa custom design?',
-        answer: 'Tentu saja bisa! Kirim aja referensi atau ide kamu via WhatsApp, nanti kita bantu wujudkan bareng.'
+        answer: 'Tentu! Kami menerima custom design sesuai keinginan Anda. Kirimkan referensi atau ide Anda via WhatsApp, dan kami akan bantu wujudkan.'
       },
       {
         question: 'Bagaimana cara pembayaran?',
-        answer: 'Kita terima transfer bank (BCA, Mandiri, BRI) dan e-wallet (GoPay, OVO, Dana). Detail pembayaran akan diberikan setelah konfirmasi pesanan ya.'
+        answer: 'Kami menerima transfer bank (BCA, Mandiri, BRI) dan e-wallet (GoPay, OVO, Dana, ShopeePay). Detail pembayaran akan diberikan setelah konfirmasi pesanan.'
       },
       {
         question: 'Area mana saja yang dilayani untuk pengiriman?',
-        answer: 'Kami melayani pengiriman untuk area Bogor dan sekitarnya. Biaya pengiriman disesuaikan dengan jarak lokasi.'
+        answer: 'Kami melayani pengiriman untuk area Bogor dan sekitarnya (Bogor Timur, Bogor Barat, Bogor Utara, Bogor Selatan, Cibinong, Sentul). Biaya pengiriman disesuaikan dengan jarak lokasi.'
       },
       {
         question: 'Berapa lama bunga segar bisa bertahan?',
@@ -295,7 +283,7 @@ export const categoryDescriptions = {
 
   'buket-uang': {
     short: 'Buket uang untuk kado wisuda dan special moment',
-    long: 'Money bouquet yang cantik dan kreatif. Cara unik memberikan uang sebagai hadiah untuk wisuda, ulang tahun, atau pernikahan. Kita akan rangkai uangmu jadi buket yang indah dan berkesan. Custom sesuai tema acara dan nominal yang diinginkan.'
+    long: 'Money bouquet yang cantik dan kreatif. Cara unik memberikan uang sebagai hadiah untuk wisuda, ulang tahun, atau pernikahan. Kami akan rangkai uang Anda menjadi buket yang indah dan berkesan. Custom sesuai tema acara dan nominal yang diinginkan.'
   },
 
   'buket-boneka': {
@@ -305,7 +293,7 @@ export const categoryDescriptions = {
 
   'backdrop-nikahan': {
     short: 'Backdrop cantik untuk dekorasi pernikahan',
-    long: 'Layanan sewa backdrop untuk acara pernikahanmu. Berbagai tema dan desain - elegant, modern, rustic, luxury. Lengkap dengan setup dan instalasi. Bikin foto-foto pernikahanmu semakin indah dan memorable. Konsultasi gratis untuk menyesuaikan dengan tema weddingmu.'
+    long: 'Layanan sewa backdrop untuk acara pernikahan Anda. Berbagai tema dan desain - elegant, modern, rustic, luxury. Lengkap dengan setup dan instalasi. Membuat foto-foto pernikahan Anda semakin indah dan memorable. Konsultasi gratis untuk menyesuaikan dengan tema wedding Anda.'
   }
 };
 
@@ -366,7 +354,7 @@ export const uiLabels = {
  * Footer Content
  */
 export const footerContent = {
-  brandDescription: 'Rabouquet menyediakan buket bunga, hadiah kreatif, dan backdrop nikahan untuk momen spesialmu. Melayani dengan sepenuh hati.',
+  brandDescription: 'Rabouquet.in menyediakan buket bunga, hadiah kreatif, dan backdrop nikahan untuk momen spesial Anda. Melayani dengan sepenuh hati di Bogor.',
 
   quickLinks: [
     { label: 'Beranda', path: '/' },
@@ -382,9 +370,9 @@ export const footerContent = {
     { label: 'Backdrop Nikahan', path: '/products?category=backdrop-nikahan' }
   ],
 
-  copyright: `© ${new Date().getFullYear()} Rabouquet. All rights reserved.`,
+  copyright: `© ${new Date().getFullYear()} Rabouquet.in. All rights reserved.`,
 
-  madeWith: 'Made with ❤️ in Pekanbaru'
+  madeWith: 'Made with ❤️ in Bogor'
 };
 
 export default {
