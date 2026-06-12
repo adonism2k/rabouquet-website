@@ -9,22 +9,6 @@
       cta-link="https://wa.me/6285157530733?text=Halo Rabouquet! Saya ingin memesan buket."
     />
 
-    <Section background="white" padding="xl">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Katalog Produk Kami</h2>
-        <p class="text-gray-600 text-lg">8 kategori buket untuk berbagai momen spesialmu</p>
-      </div>
-
-      <!-- Category Sections -->
-      <CategorySection
-        v-for="category in categories"
-        :key="category.id"
-        :category="category"
-        :products="products"
-        :limit="4"
-      />
-    </Section>
-
     <Section background="pink" padding="xl">
       <div class="text-center mb-12">
         <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Mengapa Pilih Rabouquet?</h2>
@@ -52,6 +36,22 @@
           <p class="text-gray-600">Dijamin sampai dengan selamat</p>
         </div>
       </div>
+    </Section>
+
+    <Section background="white" padding="xl">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Katalog Produk Kami</h2>
+        <p class="text-gray-600 text-lg">8 kategori buket untuk berbagai momen spesialmu</p>
+      </div>
+
+      <!-- Category Sections -->
+      <CategorySection
+        v-for="category in categories"
+        :key="category.id"
+        :category="category"
+        :products="products"
+        :limit="4"
+      />
     </Section>
 
     <Footer />
