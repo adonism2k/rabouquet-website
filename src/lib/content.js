@@ -206,27 +206,27 @@ export const contactContent = {
       {
         question: 'Berapa lama waktu pemesanan?',
         answer:
-          'Untuk pesanan regular, kami butuh minimal 1-2 hari. Untuk pesanan mendesak (same day), silakan hubungi kami via WhatsApp untuk konfirmasi ketersediaan.'
+          'Untuk pesanan reguler, kami butuh minimal 1-2 hari ya. Kalau kamu butuh yang mendesak (same day), langsung aja chat kami via WhatsApp buat cek ketersediaannya.'
       },
       {
         question: 'Apakah bisa custom design?',
         answer:
-          'Tentu! Kami menerima custom design sesuai keinginan Anda. Kirimkan referensi atau ide Anda via WhatsApp, dan kami akan bantu wujudkan.'
+          'Tentu bisa! Ceritain aja maunya gimana, kirim referensi atau ide kamu via WhatsApp, nanti kita diskusiin bareng dan bantu wujudkan.'
       },
       {
         question: 'Bagaimana cara pembayaran?',
         answer:
-          'Kami menerima transfer bank (BCA, Mandiri, BRI) dan e-wallet (GoPay, OVO, Dana, ShopeePay). Detail pembayaran akan diberikan setelah konfirmasi pesanan.'
+          'Bisa transfer bank (BCA, Mandiri, BRI) atau e-wallet (GoPay, OVO, Dana, ShopeePay). Detail pembayaran bakal dikirim setelah pesanan kamu dikonfirmasi.'
       },
       {
         question: 'Area mana saja yang dilayani untuk pengiriman?',
         answer:
-          'Kami melayani pengiriman untuk area Bogor dan sekitarnya (Bogor Timur, Bogor Barat, Bogor Utara, Bogor Selatan, Cibinong, Sentul). Biaya pengiriman disesuaikan dengan jarak lokasi.'
+          'Kami melayani area Bogor dan sekitarnya (Bogor Timur, Bogor Barat, Bogor Utara, Bogor Selatan, Cibinong, Sentul). Biaya kirim disesuaikan sama jarak lokasi kamu.'
       },
       {
         question: 'Berapa lama bunga segar bisa bertahan?',
         answer:
-          'Bunga segar dapat bertahan 3-7 hari tergantung perawatan. Kami sertakan tips perawatan di setiap pembelian buket bunga asli.'
+          'Bunga segar biasanya tahan 3-7 hari, tergantung gimana kamu rawat. Tenang, kami selalu sertakan tips perawatan di setiap pembelian buket bunga asli.'
       }
     ]
   }

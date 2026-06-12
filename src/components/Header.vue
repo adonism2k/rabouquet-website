@@ -79,7 +79,7 @@ const mobileMenuOpen = ref(false);
 const navLinks = [
   { name: 'Beranda', path: '/' },
   { name: 'Produk', path: '/products' },
-  { name: 'Tentang', path: '/about' },
+  { name: 'Tentang Kami', path: '/about' },
   { name: 'Kontak', path: '/contact' }
 ];
 </script>

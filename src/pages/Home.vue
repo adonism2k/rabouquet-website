@@ -38,7 +38,7 @@
       </div>
     </Section>
 
-    <Section background="white" padding="xl">
+    <Section background="white" padding="lg">
       <div class="text-center mb-16">
         <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Katalog Produk Kami</h2>
         <p class="text-gray-600 text-lg">8 kategori buket untuk berbagai momen spesialmu</p>
@@ -54,7 +54,7 @@
       />
     </Section>
 
-    <Section background="white" padding="xl">
+    <Section background="white" padding="lg">
       <div class="text-center mb-12">
         <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Hubungi Kami</h2>
         <p class="text-gray-600 text-lg">
