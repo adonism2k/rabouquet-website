@@ -110,6 +110,27 @@
       </div>
     </Section>
 
+    <Section background="gradient" padding="xl">
+      <div class="text-center max-w-2xl mx-auto">
+        <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Siap Pesan Buket Impianmu?</h2>
+        <p class="text-gray-600 text-lg mb-8">
+          Jelajahi katalog produk kami atau langsung chat tim kami via WhatsApp untuk konsultasi
+          gratis.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <router-link
+            to="/products"
+            class="inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 hover:scale-105 active:scale-95 bg-gradient-to-r from-pink-500 to-rose-500 text-white hover:from-pink-600 hover:to-rose-600 shadow-lg hover:shadow-pink-500/50 px-8 py-4 text-lg"
+          >
+            🛍️ Lihat Produk
+          </router-link>
+          <Button :href="whatsappConfig.link" variant="whatsapp" size="lg">
+            💬 Pesan via WhatsApp
+          </Button>
+        </div>
+      </div>
+    </Section>
+
     <Footer />
     <WhatsAppButton variant="floating" />
   </div>
