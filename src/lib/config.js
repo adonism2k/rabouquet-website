@@ -3,11 +3,12 @@ export const config = {
   business: {
     name: 'RABOUQUET.IN',
     tagline: 'Buket Hadiah Cantik untuk Momen Istimewa',
-    description: 'Toko buket bunga dan hadiah di Bogor - Buket hadiah custom untuk berbagai acara spesial Anda',
-    phone: '+6285157572725',
-    formatted_phone: '+62 851-5757-2725',
+    description:
+      'Toko buket bunga dan hadiah di Bogor - Buket hadiah custom untuk berbagai acara spesial Anda',
+    phone: '+6285157530733',
+    formatted_phone: '+62 851-5753-0733',
     email: 'info@rabouquet.in',
-    whatsapp: '6285157572725', // Format: 62xxx without + or -
+    whatsapp: '6285157530733', // Format: 62xxx without + or -
     address: {
       street: 'Kampung Pajeleran Gunung',
       city: 'Bogor',
@@ -22,7 +23,7 @@ export const config = {
     },
     location: {
       lat: -6.5971,
-      lng: 106.8060
+      lng: 106.806
     }
   },
 
@@ -35,7 +36,15 @@ export const config = {
 
   // Delivery information
   delivery: {
-    areas: ['Bogor', 'Bogor Timur', 'Bogor Barat', 'Bogor Utara', 'Bogor Selatan', 'Cibinong', 'Sentul'],
+    areas: [
+      'Bogor',
+      'Bogor Timur',
+      'Bogor Barat',
+      'Bogor Utara',
+      'Bogor Selatan',
+      'Cibinong',
+      'Sentul'
+    ],
     fee: 'Disesuaikan dengan lokasi pengiriman',
     note: 'Pengiriman cepat dan aman untuk area Bogor dan sekitarnya'
   },
@@ -45,6 +54,6 @@ export const config = {
     methods: ['Transfer Bank (BCA, Mandiri, BRI)', 'E-Wallet (GoPay, OVO, Dana, ShopeePay)'],
     note: 'Detail pembayaran akan diberikan setelah konfirmasi pesanan via WhatsApp'
   }
-}
+};
 
-export default config
+export default config;

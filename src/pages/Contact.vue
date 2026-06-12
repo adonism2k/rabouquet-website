@@ -52,12 +52,7 @@
             </div>
 
             <div class="mt-8">
-              <Button
-                :href="whatsappConfig.link"
-                variant="primary"
-                size="lg"
-                class="w-full"
-              >
+              <Button :href="whatsappConfig.link" variant="primary" size="lg" class="w-full">
                 💬 Chat via WhatsApp
               </Button>
             </div>
@@ -69,22 +64,34 @@
             <div class="space-y-6">
               <div class="bg-pink-50 p-6 rounded-lg">
                 <h3 class="text-lg font-bold mb-2">💐 Apakah bisa custom desain buket?</h3>
-                <p class="text-gray-600">Tentu saja bisa! Ceritain aja maunya gimana, nanti kita diskusiin bareng via WhatsApp.</p>
+                <p class="text-gray-600">
+                  Tentu saja bisa! Ceritain aja maunya gimana, nanti kita diskusiin bareng via
+                  WhatsApp.
+                </p>
               </div>
 
               <div class="bg-pink-50 p-6 rounded-lg">
                 <h3 class="text-lg font-bold mb-2">🚚 Berapa lama waktu pembuatan?</h3>
-                <p class="text-gray-600">Kalau ready stock, biasanya 1-2 hari aja. Untuk desain custom, butuh sekitar 2-3 hari kerja biar hasilnya maksimal.</p>
+                <p class="text-gray-600">
+                  Kalau ready stock, biasanya 1-2 hari aja. Untuk desain custom, butuh sekitar 2-3
+                  hari kerja biar hasilnya maksimal.
+                </p>
               </div>
 
               <div class="bg-pink-50 p-6 rounded-lg">
                 <h3 class="text-lg font-bold mb-2">📦 Area pengiriman ke mana saja?</h3>
-                <p class="text-gray-600">Kami melayani pengiriman area Bogor dan sekitarnya. Untuk luar area bisa diskusi via WhatsApp.</p>
+                <p class="text-gray-600">
+                  Kami melayani pengiriman area Bogor dan sekitarnya. Untuk luar area bisa diskusi
+                  via WhatsApp.
+                </p>
               </div>
 
               <div class="bg-pink-50 p-6 rounded-lg">
                 <h3 class="text-lg font-bold mb-2">💳 Metode pembayaran apa saja?</h3>
-                <p class="text-gray-600">Transfer bank (BCA, Mandiri, BNI) dan e-wallet (GoPay, OVO, Dana). Detail akan diberikan saat order.</p>
+                <p class="text-gray-600">
+                  Transfer bank (BCA, Mandiri, BNI) dan e-wallet (GoPay, OVO, Dana). Detail akan
+                  diberikan saat order.
+                </p>
               </div>
             </div>
           </div>
@@ -93,13 +100,10 @@
         <div class="mt-16 bg-gradient-to-r from-pink-50 to-purple-50 p-8 rounded-2xl text-center">
           <h2 class="text-3xl font-serif font-bold text-gray-900 mb-4">Siap Memesan?</h2>
           <p class="text-gray-600 text-lg mb-6">
-            Chat kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik untuk buket impianmu!
+            Chat kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik untuk buket
+            impianmu!
           </p>
-          <Button
-            :href="whatsappConfig.link"
-            variant="primary"
-            size="lg"
-          >
+          <Button :href="whatsappConfig.link" variant="primary" size="lg">
             💬 Mulai Chat di WhatsApp
           </Button>
         </div>
@@ -112,10 +116,13 @@
 </template>
 
 <script setup>
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-import Section from '@/components/Section.vue'
-import Button from '@/components/Button.vue'
-import WhatsAppButton from '@/components/WhatsAppButton.vue'
-import { whatsappConfig } from '@/lib/content.js'
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
+import Section from '@/components/Section.vue';
+import Button from '@/components/Button.vue';
+import WhatsAppButton from '@/components/WhatsAppButton.vue';
+import { whatsappConfig } from '@/lib/content.js';
+import { useSeo } from '@/composables/useSeo.js';
+
+useSeo('contact');
 </script>

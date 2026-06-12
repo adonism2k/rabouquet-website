@@ -7,7 +7,8 @@
  * WhatsApp Configuration
  */
 export const whatsappConfig = {
-  phoneNumber: '6285157572725', // Rabouquet WhatsApp number
+  phoneNumber: '6285157530733', // Rabouquet WhatsApp number
+  phoneDisplay: '+62 851-5753-0733',
 
   messages: {
     general: 'Halo Rabouquet.in! Saya tertarik dengan produk Anda. Bisa info lebih lanjut?',
@@ -19,9 +20,15 @@ export const whatsappConfig = {
     category: (categoryName) =>
       `Halo Rabouquet.in! Saya ingin melihat koleksi ${categoryName}. Bisa dibantu?`,
 
-    customOrder: 'Halo Rabouquet.in! Saya ingin pesan custom buket. Bisa diskusi detail pesanan saya?',
+    customOrder:
+      'Halo Rabouquet.in! Saya ingin pesan custom buket. Bisa diskusi detail pesanan saya?',
 
-    backdrop: 'Halo Rabouquet.in! Saya tertarik menyewa backdrop untuk acara pernikahan. Bisa info lebih lanjut?'
+    backdrop:
+      'Halo Rabouquet.in! Saya tertarik menyewa backdrop untuk acara pernikahan. Bisa info lebih lanjut?'
+  },
+
+  get link() {
+    return getWhatsAppUrl(this.messages.general);
   }
 };
 
@@ -34,46 +41,12 @@ export const getWhatsAppUrl = (message = whatsappConfig.messages.general) => {
 };
 
 /**
- * SEO Meta Content
- */
-export const seoContent = {
-  default: {
-    title: 'Rabouquet.in - Buket Bunga & Hadiah Kreatif Bogor',
-    description: 'Rabouquet.in menyediakan buket bunga asli, artificial, snack, boneka, dan backdrop nikahan di Bogor. Hadiah spesial untuk orang tersayang. Pesan sekarang via WhatsApp!',
-    keywords: 'buket bunga bogor, buket snack, buket uang, buket boneka, backdrop nikahan, toko bunga bogor, hadiah unik bogor'
-  },
-
-  home: {
-    title: 'Rabouquet.in - Toko Buket Bunga & Hadiah Kreatif Terpercaya di Bogor',
-    description: 'Pesan buket bunga segar, artificial, snack, boneka, dan sewa backdrop nikahan di Bogor. Pengiriman cepat, harga terjangkau, kualitas terjamin. Order via WhatsApp!',
-    keywords: 'toko bunga bogor, buket murah, hadiah wisuda, hadiah ulang tahun, buket pernikahan, florist bogor'
-  },
-
-  products: {
-    title: 'Katalog Produk - Buket Bunga & Hadiah Unik | Rabouquet.in',
-    description: 'Lihat koleksi lengkap buket bunga asli, artificial, pita satin, kawat bulu, snack, uang, boneka, dan backdrop nikahan. Harga mulai Rp 45.000. Custom design tersedia!',
-    keywords: 'katalog buket, harga buket bunga, buket custom, buket murah bogor'
-  },
-
-  about: {
-    title: 'Tentang Kami - Rabouquet.in Bogor',
-    description: 'Rabouquet.in adalah toko buket dan hadiah kreatif terpercaya di Bogor. Melayani dengan sepenuh hati. Quality, creativity, dan customer satisfaction adalah prioritas kami.',
-    keywords: 'tentang rabouquet, toko bunga bogor, florist bogor'
-  },
-
-  contact: {
-    title: 'Hubungi Kami - Order via WhatsApp | Rabouquet.in',
-    description: 'Hubungi Rabouquet.in untuk konsultasi dan pemesanan buket. Fast response via WhatsApp. Lokasi di Bogor, melayani pengiriman se-Bogor dan sekitarnya.',
-    keywords: 'kontak rabouquet, whatsapp buket, pesan buket bogor'
-  }
-};
-
-/**
  * Hero Section Content
  */
 export const heroContent = {
   mainTagline: 'Wujudkan Momen Spesial dengan Buket Istimewa',
-  subTagline: 'Buket bunga segar, artificial, snack, boneka & backdrop nikahan - Dibuat dengan cinta untuk orang tersayang',
+  subTagline:
+    'Buket bunga segar, artificial, snack, boneka & backdrop nikahan - Dibuat dengan cinta untuk orang tersayang',
 
   cta: {
     primary: 'Lihat Katalog',
@@ -132,7 +105,8 @@ export const aboutContent = {
       {
         icon: '🎨',
         title: 'Kreativitas',
-        description: 'Setiap buket dirancang dengan sentuhan kreatif dan penuh perhatian terhadap detail'
+        description:
+          'Setiap buket dirancang dengan sentuhan kreatif dan penuh perhatian terhadap detail'
       },
       {
         icon: '❤️',
@@ -142,7 +116,8 @@ export const aboutContent = {
       {
         icon: '🤝',
         title: 'Kepercayaan',
-        description: 'Kami membangun hubungan jangka panjang berdasarkan kepercayaan dan transparansi'
+        description:
+          'Kami membangun hubungan jangka panjang berdasarkan kepercayaan dan transparansi'
       }
     ]
   },
@@ -230,23 +205,28 @@ export const contactContent = {
     items: [
       {
         question: 'Berapa lama waktu pemesanan?',
-        answer: 'Untuk pesanan regular, kami butuh minimal 1-2 hari. Untuk pesanan mendesak (same day), silakan hubungi kami via WhatsApp untuk konfirmasi ketersediaan.'
+        answer:
+          'Untuk pesanan regular, kami butuh minimal 1-2 hari. Untuk pesanan mendesak (same day), silakan hubungi kami via WhatsApp untuk konfirmasi ketersediaan.'
       },
       {
         question: 'Apakah bisa custom design?',
-        answer: 'Tentu! Kami menerima custom design sesuai keinginan Anda. Kirimkan referensi atau ide Anda via WhatsApp, dan kami akan bantu wujudkan.'
+        answer:
+          'Tentu! Kami menerima custom design sesuai keinginan Anda. Kirimkan referensi atau ide Anda via WhatsApp, dan kami akan bantu wujudkan.'
       },
       {
         question: 'Bagaimana cara pembayaran?',
-        answer: 'Kami menerima transfer bank (BCA, Mandiri, BRI) dan e-wallet (GoPay, OVO, Dana, ShopeePay). Detail pembayaran akan diberikan setelah konfirmasi pesanan.'
+        answer:
+          'Kami menerima transfer bank (BCA, Mandiri, BRI) dan e-wallet (GoPay, OVO, Dana, ShopeePay). Detail pembayaran akan diberikan setelah konfirmasi pesanan.'
       },
       {
         question: 'Area mana saja yang dilayani untuk pengiriman?',
-        answer: 'Kami melayani pengiriman untuk area Bogor dan sekitarnya (Bogor Timur, Bogor Barat, Bogor Utara, Bogor Selatan, Cibinong, Sentul). Biaya pengiriman disesuaikan dengan jarak lokasi.'
+        answer:
+          'Kami melayani pengiriman untuk area Bogor dan sekitarnya (Bogor Timur, Bogor Barat, Bogor Utara, Bogor Selatan, Cibinong, Sentul). Biaya pengiriman disesuaikan dengan jarak lokasi.'
       },
       {
         question: 'Berapa lama bunga segar bisa bertahan?',
-        answer: 'Bunga segar dapat bertahan 3-7 hari tergantung perawatan. Kami sertakan tips perawatan di setiap pembelian buket bunga asli.'
+        answer:
+          'Bunga segar dapat bertahan 3-7 hari tergantung perawatan. Kami sertakan tips perawatan di setiap pembelian buket bunga asli.'
       }
     ]
   }
@@ -354,7 +334,8 @@ export const uiLabels = {
  * Footer Content
  */
 export const footerContent = {
-  brandDescription: 'Rabouquet.in menyediakan buket bunga, hadiah kreatif, dan backdrop nikahan untuk momen spesial Anda. Melayani dengan sepenuh hati di Bogor.',
+  brandDescription:
+    'Rabouquet.in menyediakan buket bunga, hadiah kreatif, dan backdrop nikahan untuk momen spesial Anda. Melayani dengan sepenuh hati di Bogor.',
 
   quickLinks: [
     { label: 'Beranda', path: '/' },
@@ -378,7 +359,6 @@ export const footerContent = {
 export default {
   whatsappConfig,
   getWhatsAppUrl,
-  seoContent,
   heroContent,
   aboutContent,
   contactContent,

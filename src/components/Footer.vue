@@ -5,17 +5,34 @@
         <!-- About -->
         <div>
           <h3 class="text-xl font-serif font-bold mb-4 text-gradient-pink">RABOUQUET.IN</h3>
-          <p class="text-gray-400 mb-4">Toko buket bunga dan hadiah terpercaya di Bogor. Melayani berbagai kebutuhan hadiah untuk momen spesialmu.</p>
+          <p class="text-gray-400 mb-4">
+            Toko buket bunga dan hadiah terpercaya di Bogor. Melayani berbagai kebutuhan hadiah
+            untuk momen spesialmu.
+          </p>
         </div>
 
         <!-- Quick Links -->
         <div>
           <h3 class="text-lg font-semibold mb-4">Link Cepat</h3>
           <ul class="space-y-2">
-            <li><router-link to="/" class="text-gray-400 hover:text-pink-400">Beranda</router-link></li>
-            <li><router-link to="/products" class="text-gray-400 hover:text-pink-400">Produk</router-link></li>
-            <li><router-link to="/about" class="text-gray-400 hover:text-pink-400">Tentang</router-link></li>
-            <li><router-link to="/contact" class="text-gray-400 hover:text-pink-400">Kontak</router-link></li>
+            <li>
+              <router-link to="/" class="text-gray-400 hover:text-pink-400">Beranda</router-link>
+            </li>
+            <li>
+              <router-link to="/products" class="text-gray-400 hover:text-pink-400"
+                >Produk</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/about" class="text-gray-400 hover:text-pink-400"
+                >Tentang</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/contact" class="text-gray-400 hover:text-pink-400"
+                >Kontak</router-link
+              >
+            </li>
           </ul>
         </div>
 
@@ -28,13 +45,19 @@
               <span>Kampung Pajeleran Gunung, Bogor, Indonesia 16913</span>
             </li>
             <li>
-              <a href="https://wa.me/6285157572725" class="flex items-center gap-2 hover:text-pink-400">
+              <a
+                href="https://wa.me/6285157530733"
+                class="flex items-center gap-2 hover:text-pink-400"
+              >
                 <span>💬</span>
                 <span>+62 851-5757-2725</span>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/rabouquet.in/" class="flex items-center gap-2 hover:text-pink-400">
+              <a
+                href="https://www.instagram.com/rabouquet.in/"
+                class="flex items-center gap-2 hover:text-pink-400"
+              >
                 <span>📷</span>
                 <span>@rabouquet.in</span>
               </a>
@@ -50,5 +73,4 @@
   </footer>
 </template>
 
-<script setup>
-</script>
+<script setup></script>

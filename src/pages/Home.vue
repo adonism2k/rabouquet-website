@@ -5,8 +5,8 @@
     <Hero
       title="Hadirkan Momen Istimewa dengan Buket dari Rabouquet"
       subtitle="Buket Bunga Asli, Artificial, Snack, Boneka & Backdrop Nikahan di Bogor"
-      ctaText="💬 Pesan via WhatsApp"
-      ctaLink="https://wa.me/6285157572725?text=Halo Rabouquet! Saya ingin memesan buket."
+      cta-text="💬 Pesan via WhatsApp"
+      cta-link="https://wa.me/6285157530733?text=Halo Rabouquet! Saya ingin memesan buket."
     />
 
     <Section background="white" padding="xl">
@@ -60,11 +60,14 @@
 </template>
 
 <script setup>
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-import Hero from '@/components/Hero.vue'
-import Section from '@/components/Section.vue'
-import WhatsAppButton from '@/components/WhatsAppButton.vue'
-import CategorySection from '@/components/CategorySection.vue'
-import { products, categories } from '@/lib/products.js'
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
+import Hero from '@/components/Hero.vue';
+import Section from '@/components/Section.vue';
+import WhatsAppButton from '@/components/WhatsAppButton.vue';
+import CategorySection from '@/components/CategorySection.vue';
+import { products, categories } from '@/lib/products.js';
+import { useSeo } from '@/composables/useSeo.js';
+
+useSeo('home');
 </script>

@@ -37,7 +37,7 @@ export function generatePlaceholder(width = 400, height = 300, text = 'Loading..
  */
 export function generateSrcSet(baseUrl, sizes = [320, 640, 768, 1024, 1280]) {
   // For now, return base URL (can be extended with image CDN)
-  return sizes.map(size => `${baseUrl}?w=${size} ${size}w`).join(', ');
+  return sizes.map((size) => `${baseUrl}?w=${size} ${size}w`).join(', ');
 }
 
 /**
@@ -58,7 +58,7 @@ export const lazyLoadConfig = {
 export function setupLazyLoading(element, callback) {
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
           callback(entry.target);
           observer.unobserve(entry.target);
@@ -125,7 +125,7 @@ export function getImageSizes(context = 'card') {
 export function preloadImages(imageUrls) {
   if (typeof window === 'undefined') return;
 
-  imageUrls.forEach(url => {
+  imageUrls.forEach((url) => {
     const link = document.createElement('link');
     link.rel = 'preload';
     link.as = 'image';

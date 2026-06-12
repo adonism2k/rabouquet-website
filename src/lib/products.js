@@ -9,7 +9,8 @@ export const products = [
     id: 'fresh-roses-red',
     name: 'Buket Mawar Merah',
     category: 'bunga-asli',
-    description: 'Buket mawar merah segar untuk mengungkapkan cinta dan kasih sayang. Cocok untuk anniversary, Valentine, atau momen romantis.',
+    description:
+      'Buket mawar merah segar untuk mengungkapkan cinta dan kasih sayang. Cocok untuk anniversary, Valentine, atau momen romantis.',
     priceRange: 'Rp 100.000 - Rp 250.000',
     image: '/images/products/fresh-roses-red.jpg',
     featured: true
@@ -18,7 +19,8 @@ export const products = [
     id: 'fresh-tulips-mix',
     name: 'Buket Tulip Campuran',
     category: 'bunga-asli',
-    description: 'Tulip segar dengan warna-warni cerah yang indah. Sempurna untuk hadiah ulang tahun atau ucapan selamat.',
+    description:
+      'Tulip segar dengan warna-warni cerah yang indah. Sempurna untuk hadiah ulang tahun atau ucapan selamat.',
     priceRange: 'Rp 120.000 - Rp 200.000',
     image: '/images/products/fresh-tulips-mix.jpg',
     featured: false
@@ -27,7 +29,8 @@ export const products = [
     id: 'fresh-sunflowers',
     name: 'Buket Bunga Matahari',
     category: 'bunga-asli',
-    description: 'Bunga matahari ceria yang membawa energi positif. Ideal untuk ucapan semangat dan doa kesembuhan.',
+    description:
+      'Bunga matahari ceria yang membawa energi positif. Ideal untuk ucapan semangat dan doa kesembuhan.',
     priceRange: 'Rp 75.000 - Rp 180.000',
     image: '/images/products/fresh-sunflowers.jpg',
     featured: true
@@ -47,7 +50,8 @@ export const products = [
     id: 'artificial-roses-elegant',
     name: 'Buket Mawar Artificial Elegan',
     category: 'bunga-artificial',
-    description: 'Mawar artificial berkualitas tinggi yang awet dan tahan lama. Tidak layu, bisa dipakai berulang kali.',
+    description:
+      'Mawar artificial berkualitas tinggi yang awet dan tahan lama. Tidak layu, bisa dipakai berulang kali.',
     priceRange: 'Rp 80.000 - Rp 200.000',
     image: '/images/products/artificial-roses-elegant.jpg',
     featured: true
@@ -65,7 +69,8 @@ export const products = [
     id: 'artificial-colorful-mix',
     name: 'Buket Artificial Warna-Warni',
     category: 'bunga-artificial',
-    description: 'Kombinasi bunga artificial dengan warna cerah yang bikin ruangan jadi lebih ceria.',
+    description:
+      'Kombinasi bunga artificial dengan warna cerah yang bikin ruangan jadi lebih ceria.',
     priceRange: 'Rp 50.000 - Rp 150.000',
     image: '/images/products/artificial-colorful-mix.jpg',
     featured: false
@@ -76,7 +81,8 @@ export const products = [
     id: 'satin-rainbow-bouquet',
     name: 'Buket Pita Satin Pelangi',
     category: 'pita-satin',
-    description: 'Buket pita satin dengan gradasi warna pelangi yang cantik dan unik. Hadiah yang berbeda dan berkesan.',
+    description:
+      'Buket pita satin dengan gradasi warna pelangi yang cantik dan unik. Hadiah yang berbeda dan berkesan.',
     priceRange: 'Rp 75.000 - Rp 180.000',
     image: '/images/products/satin-rainbow-bouquet.jpg',
     featured: true
@@ -114,7 +120,8 @@ export const products = [
     id: 'chenille-character-cute',
     name: 'Buket Kawat Bulu Karakter',
     category: 'kawat-bulu',
-    description: 'Kawat bulu dibentuk menjadi karakter lucu yang menggemaskan. Sempurna untuk anak-anak.',
+    description:
+      'Kawat bulu dibentuk menjadi karakter lucu yang menggemaskan. Sempurna untuk anak-anak.',
     priceRange: 'Rp 45.000 - Rp 150.000',
     image: '/images/products/chenille-character-cute.jpg',
     featured: false
@@ -161,7 +168,8 @@ export const products = [
     id: 'snack-mixed-party',
     name: 'Buket Snack Campur Party',
     category: 'buket-snack',
-    description: 'Kombinasi keripik, cokelat, dan permen dalam satu buket besar. Perfect untuk pesta.',
+    description:
+      'Kombinasi keripik, cokelat, dan permen dalam satu buket besar. Perfect untuk pesta.',
     priceRange: 'Rp 150.000 - Rp 350.000',
     image: '/images/products/snack-mixed-party.jpg',
     featured: false
@@ -172,7 +180,8 @@ export const products = [
     id: 'money-graduation-special',
     name: 'Buket Uang Wisuda Spesial',
     category: 'buket-uang',
-    description: 'Buket uang dengan dekorasi toga dan hiasan wisuda. Hadiah istimewa untuk kelulusan.',
+    description:
+      'Buket uang dengan dekorasi toga dan hiasan wisuda. Hadiah istimewa untuk kelulusan.',
     priceRange: 'Custom (tergantung nominal uang)',
     image: '/images/products/money-graduation-special.jpg',
     featured: true
@@ -201,7 +210,8 @@ export const products = [
     id: 'plush-bear-large',
     name: 'Buket Boneka Beruang Besar',
     category: 'buket-boneka',
-    description: 'Boneka beruang lucu ukuran besar dengan rangkaian bunga. Hadiah romantis yang menggemaskan.',
+    description:
+      'Boneka beruang lucu ukuran besar dengan rangkaian bunga. Hadiah romantis yang menggemaskan.',
     priceRange: 'Rp 150.000 - Rp 350.000',
     image: '/images/products/plush-bear-large.jpg',
     featured: true
@@ -230,7 +240,8 @@ export const products = [
     id: 'backdrop-elegant-cream',
     name: 'Backdrop Nikahan Elegan Cream',
     category: 'backdrop-nikahan',
-    description: 'Backdrop pernikahan dengan tema cream dan gold yang elegan. Sempurna untuk foto resepsi.',
+    description:
+      'Backdrop pernikahan dengan tema cream dan gold yang elegan. Sempurna untuk foto resepsi.',
     priceRange: 'Rp 800.000 - Rp 1.500.000',
     image: '/images/products/backdrop-elegant-cream.jpg',
     featured: true
@@ -239,7 +250,8 @@ export const products = [
     id: 'backdrop-modern-minimalist',
     name: 'Backdrop Nikahan Modern Minimalis',
     category: 'backdrop-nikahan',
-    description: 'Desain minimalis modern dengan sentuhan bunga segar. Cocok untuk pernikahan outdoor.',
+    description:
+      'Desain minimalis modern dengan sentuhan bunga segar. Cocok untuk pernikahan outdoor.',
     priceRange: 'Rp 700.000 - Rp 1.200.000',
     image: '/images/products/backdrop-modern-minimalist.jpg',
     featured: false
@@ -248,7 +260,8 @@ export const products = [
     id: 'backdrop-rustic-wooden',
     name: 'Backdrop Nikahan Rustic Kayu',
     category: 'backdrop-nikahan',
-    description: 'Backdrop dengan tema rustic menggunakan kayu dan bunga vintage. Natural dan hangat.',
+    description:
+      'Backdrop dengan tema rustic menggunakan kayu dan bunga vintage. Natural dan hangat.',
     priceRange: 'Rp 900.000 - Rp 1.800.000',
     image: '/images/products/backdrop-rustic-wooden.jpg',
     featured: false
@@ -333,28 +346,28 @@ export const getProductsByCategory = (categoryId) => {
   if (!categoryId || categoryId === 'all') {
     return products;
   }
-  return products.filter(product => product.category === categoryId);
+  return products.filter((product) => product.category === categoryId);
 };
 
 /**
  * Get featured products
  */
 export const getFeaturedProducts = () => {
-  return products.filter(product => product.featured);
+  return products.filter((product) => product.featured);
 };
 
 /**
  * Get product by ID
  */
 export const getProductById = (productId) => {
-  return products.find(product => product.id === productId);
+  return products.find((product) => product.id === productId);
 };
 
 /**
  * Get category by ID
  */
 export const getCategoryById = (categoryId) => {
-  return categories.find(category => category.id === categoryId);
+  return categories.find((category) => category.id === categoryId);
 };
 
 /**
@@ -362,8 +375,9 @@ export const getCategoryById = (categoryId) => {
  */
 export const searchProducts = (query) => {
   const lowerQuery = query.toLowerCase();
-  return products.filter(product =>
-    product.name.toLowerCase().includes(lowerQuery) ||
-    product.description.toLowerCase().includes(lowerQuery)
+  return products.filter(
+    (product) =>
+      product.name.toLowerCase().includes(lowerQuery) ||
+      product.description.toLowerCase().includes(lowerQuery)
   );
 };

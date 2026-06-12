@@ -13,7 +13,12 @@
     font-family: 'Inter', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-serif;
     font-family: 'Playfair Display', serif;
   }
@@ -22,7 +27,8 @@
 /* Custom Animations */
 @layer utilities {
   @keyframes blob {
-    0%, 100% {
+    0%,
+    100% {
       transform: translate(0, 0) scale(1);
     }
     25% {
@@ -48,7 +54,8 @@
   }
 
   @keyframes sparkle {
-    0%, 100% {
+    0%,
+    100% {
       opacity: 1;
       transform: scale(1);
     }

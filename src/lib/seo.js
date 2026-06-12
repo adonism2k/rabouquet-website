@@ -6,8 +6,8 @@
 export const siteConfig = {
   name: 'RABOUQUET.IN',
   url: 'https://rabouquet.in',
-  phone: '+6285157572725',
-  whatsapp: '6285157572725',
+  phone: '+6285157530733',
+  whatsapp: '6285157530733',
   address: {
     street: 'Kampung Pajeleran Gunung',
     city: 'Bogor',
@@ -22,25 +22,31 @@ export const siteConfig = {
 export const pageMetadata = {
   home: {
     title: 'Rabouquet.in - Toko Buket Bunga & Hadiah di Bogor',
-    description: 'Toko buket terpercaya di Bogor. Kami menyediakan buket bunga segar, buket snack, buket boneka, dan hadiah custom untuk berbagai acara spesialmu. Pesan sekarang!',
-    keywords: 'buket bunga bogor, toko buket bogor, buket wisuda, buket snack, buket boneka, hadiah custom bogor, florist bogor',
+    description:
+      'Toko buket terpercaya di Bogor. Kami menyediakan buket bunga segar, buket snack, buket boneka, dan hadiah custom untuk berbagai acara spesialmu. Pesan sekarang!',
+    keywords:
+      'buket bunga bogor, toko buket bogor, buket wisuda, buket snack, buket boneka, hadiah custom bogor, florist bogor',
     ogImage: '/logo.png'
   },
   products: {
     title: 'Katalog Buket - Rabouquet.in | Bunga, Snack, Boneka & Lainnya',
-    description: 'Jelajahi koleksi lengkap buket kami: buket bunga segar, buket snack premium, buket boneka lucu, dan custom bouquet sesuai keinginan. Harga terjangkau, kualitas terjamin!',
-    keywords: 'katalog buket, buket murah bogor, buket custom, buket wisuda bogor, buket ulang tahun',
+    description:
+      'Jelajahi koleksi lengkap buket kami: buket bunga segar, buket snack premium, buket boneka lucu, dan custom bouquet sesuai keinginan. Harga terjangkau, kualitas terjamin!',
+    keywords:
+      'katalog buket, buket murah bogor, buket custom, buket wisuda bogor, buket ulang tahun',
     ogImage: '/logo.png'
   },
   about: {
     title: 'Tentang Rabouquet.in - Toko Buket Terpercaya di Bogor',
-    description: 'Rabouquet.in adalah toko buket terpercaya di Bogor yang menghadirkan buket berkualitas untuk setiap momen spesialmu. Dibuat dengan penuh perhatian dan cinta.',
+    description:
+      'Rabouquet.in adalah toko buket terpercaya di Bogor yang menghadirkan buket berkualitas untuk setiap momen spesialmu. Dibuat dengan penuh perhatian dan cinta.',
     keywords: 'tentang rabouquet, toko buket bogor, florist profesional bogor',
     ogImage: '/logo.png'
   },
   contact: {
     title: 'Hubungi Kami - Rabouquet.in',
-    description: 'Hubungi Rabouquet.in untuk konsultasi dan pemesanan buket. Kami siap melayani kamu melalui WhatsApp atau kunjungi toko kami di Bogor. Respon cepat dan ramah!',
+    description:
+      'Hubungi Rabouquet.in untuk konsultasi dan pemesanan buket. Kami siap melayani kamu melalui WhatsApp atau kunjungi toko kami di Bogor. Respon cepat dan ramah!',
     keywords: 'kontak rabouquet, pesan buket bogor, whatsapp florist bogor',
     ogImage: '/logo.png'
   }
@@ -112,9 +118,7 @@ export function getStructuredData() {
         closes: '20:00'
       }
     ],
-    sameAs: [
-      `https://instagram.com/${siteConfig.social.instagram.replace('@', '')}`
-    ],
+    sameAs: [`https://instagram.com/${siteConfig.social.instagram.replace('@', '')}`],
     areaServed: {
       '@type': 'City',
       name: 'Bogor'
