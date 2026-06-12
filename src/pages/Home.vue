@@ -39,22 +39,6 @@
     </Section>
 
     <Section background="white" padding="lg">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Katalog Produk Kami</h2>
-        <p class="text-gray-600 text-lg">8 kategori buket untuk berbagai momen spesialmu</p>
-      </div>
-
-      <!-- Category Sections -->
-      <CategorySection
-        v-for="category in categories"
-        :key="category.id"
-        :category="category"
-        :products="products"
-        :limit="4"
-      />
-    </Section>
-
-    <Section background="white" padding="lg">
       <div class="text-center mb-12">
         <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Hubungi Kami</h2>
         <p class="text-gray-600 text-lg">
@@ -138,9 +122,7 @@ import Hero from '@/components/Hero.vue';
 import Section from '@/components/Section.vue';
 import Button from '@/components/Button.vue';
 import WhatsAppButton from '@/components/WhatsAppButton.vue';
-import CategorySection from '@/components/CategorySection.vue';
 import FaqAccordion from '@/components/FaqAccordion.vue';
-import { products, categories } from '@/lib/products.js';
 import { whatsappConfig, contactContent } from '@/lib/content.js';
 import { useSeo } from '@/composables/useSeo.js';
 
