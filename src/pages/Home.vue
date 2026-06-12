@@ -114,8 +114,8 @@
       <div class="text-center max-w-2xl mx-auto">
         <h2 class="text-4xl font-serif font-bold text-gray-900 mb-4">Siap Pesan Buket Impianmu?</h2>
         <p class="text-gray-600 text-lg mb-8">
-          Jelajahi katalog produk kami atau langsung chat tim kami via WhatsApp untuk konsultasi
-          gratis.
+          Intip-intip dulu katalog produk kami, atau langsung chat aja tim kami via WhatsApp buat
+          ngobrolin buket impianmu, gratis!
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <router-link
